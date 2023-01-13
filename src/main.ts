@@ -1,8 +1,12 @@
-import { createApp } from 'vue'
+import { createApp, defineAsyncComponent } from 'vue'
 import App from './App.vue'
 
 import './assets/base.css'
 
 import 'uno.css'
+import router from './components/router'
 
-createApp(App).mount('#app')
+var app = createApp(App)
+app.use(router)
+
+app.mount('#app')

@@ -1,10 +1,6 @@
-<script setup lang="ts">
-
+<script setup lang="tsx">
 </script>
 
 <template>
-    <div flex flex-row>
-        <div i-mdi-github text-3xl />
-        <div text-xl text-center>Github</div>
-    </div>
+    Text me uwu
 </template>
