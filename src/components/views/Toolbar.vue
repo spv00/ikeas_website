@@ -3,7 +3,10 @@ import { Icon } from '@iconify/vue';
 const routes = {
     "Profile": { path: "/", icon: "line-md:account" },
     "Github": { path: "/github", icon: "mdi:github" },
-    "Contact": { path: "/contact", icon: "mdi:email" },
+    "My Resume": { path: "/resume", icon: "mdi:file-document" },
+    "Gallery": { path: "/gallery", icon: "mdi:camera" },
+
+    //"Contact": { path: "/contact", icon: "mdi:email" },
 }
 </script>
 

@@ -54,8 +54,6 @@ function getGithubProject() {
 
     })
 }
-
-
 </script>
 
 <template>

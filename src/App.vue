@@ -8,17 +8,12 @@ import Projects from './components/views/Projects.vue';
 
 
 <template>
-  <div h-full flex flex-col>
+  <div flex flex-col min-h-full>
     <div p-t-4 m-x-4>
       <Toolbar />
     </div>
     <div flex-1 m-4 bg-gray-8 rounded-4 p-4 overflow-y-auto>
-      <router-view v-slot="{ Component, route }">
-        <Transition name="fade">
-          <component :is="Component" :key="route.path" />
-        </Transition>
-      </router-view>
-
+      <router-view animate-fade-in animate-duration-0.3s />
     </div>
   </div>
 </template>
